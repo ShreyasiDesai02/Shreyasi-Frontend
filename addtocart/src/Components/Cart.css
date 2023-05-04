@@ -380,4 +380,18 @@ header {
   .card-total button {
     margin-bottom: 3rem;
   }
+
+  
+  .add-coupon button {
+    border: none;
+    font-size: 1.6rem;
+    padding: 1px 3px;
+    color: #fff;
+    background-color: #349bf3;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
 }

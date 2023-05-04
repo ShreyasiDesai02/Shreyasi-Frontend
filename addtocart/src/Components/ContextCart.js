@@ -3,6 +3,7 @@ import { Scrollbars } from "react-custom-scrollbars-2";
 import Items from "./items";
 import { CartContext } from "./Cart";
 
+
 const ContextCart = () => {
   const { item, clearCart, totalItem, totalAmount } = useContext(CartContext);
 
@@ -61,6 +62,10 @@ const ContextCart = () => {
               })}
             </Scrollbars>
           </div>
+        </div>
+        <div className="add-coupon">
+          <input type="text" ></input><br></br>
+          <button>Add coupon</button>
         </div>
 
         <div className="card-total">
